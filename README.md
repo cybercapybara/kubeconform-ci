@@ -23,7 +23,7 @@ Composite GitHub Action + kubeconform + yq.
 ## Usage
 
 ```yaml
-- uses: moveeeax/kubeconform-ci@v1
+- uses: cybercapybara/kubeconform-ci@v1
   with:
     kubernetes-version: '1.30'
     dirs: manifests/
